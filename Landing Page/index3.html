@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Landing Page</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for 
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>Apna College</h1>
+			<button>
+				<a href="https://www.geeksforgeeks.org/">Explore More</a>
+			</button>
+		</div>
+		<div class="side2">
+			<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png"width="500">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="title">
+				<span>Courses</span>
+			</div>
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							 Alpha Java + DSA
+						</a>
+					</div>
+					<p>
+						Apna college's Alpha Java + DSA course is one of the best course out there for tech placements. Course content is very well structured with more than 90+ hours of content. Graphs and DP have been taught in very detail.
+					</p>
+				</div>
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							Delta
+						</a>
+					</div>
+					<p>
+						Apna college's Delta course is one of the best course out there for tech placements. Course content is very well structured with more than 60+ hours of content. Frontend and Backend have been taught in very detail.
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							Sigma
+						</a>
+					</div>
+					<p>
+						Apna college's Sigma course is one of the best course out there for tech placements. Course content is very well structured with more than 200+ hours of content. Full Stack Web Development and Java + DSA have been taught in very detail.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>
+								Contact Us
+							</span>
+						</div>
+						<div class="content1">
+							alpha@apnacollege.in
+						</div>
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							Apna College is not just a YouTube channel; it's a virtual educational companion dedicated to empowering students and learners on their academic and personal growth journey. Whether you're looking for academic support, career guidance, or a community of like-minded individuals, Apna College is the place to be. Subscribe now and embark on a transformative learning experience!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer">
+			<span>
+				Created By
+				<a href="#">Samadhan</a>
+			</span>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
